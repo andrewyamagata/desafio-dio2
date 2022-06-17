@@ -246,7 +246,7 @@ a:hover {
     position: relative;
 }
 
-.card-wrapper::before{
+.card-wrapper::before {
     content: '';
     position: absolute;
     height: 100px;
@@ -274,12 +274,14 @@ a:hover {
     transition: 0.3s;
 }
 
-.card:hover {
-    filter: unset;
-}
-
 .card:hover > .card-wrapper::before {
     opacity: 1;
     width: 350px;
     height: 250px;
+}
+
+.card:hover > .card-wrapper p {
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
 }
