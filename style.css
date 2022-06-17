@@ -233,6 +233,7 @@ a:hover {
 .card-text {
     width: 40%;
     font-family: sans-serif;
+    text-align: justify;
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
 }
@@ -314,5 +315,21 @@ a:hover {
     .container .card-container:nth-child(1),
     .container .card-container:nth-child(3) {
         flex-direction: column-reverse;
+    }
+
+    .card {
+        height: 250px;
+        width: 250px;
+    }
+
+    .card-text {
+        width: 90%;
+        margin-top: 2rem;
+        text-align: justify;
+    }
+
+    .card:hover > .card-wrapper::before {
+        height: 190px;
+        width: 190px;
     }
 }
