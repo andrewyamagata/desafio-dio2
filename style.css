@@ -237,6 +237,15 @@ a:hover {
     color: rgb(109, 109, 109);
 }
 
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 .card-wrapper::before{
     content: '';
     position: absolute;
