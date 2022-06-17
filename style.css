@@ -128,7 +128,7 @@ a:hover {
     border-radius: 50%;
     box-shadow: 0px 0px 0px 0px #ffffff;
     z-index: -1;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 }
 
 .menu-item {
@@ -143,7 +143,7 @@ a:hover {
     z-index: 2;
     opacity: 0;
     visibility: hidden;
-    transition: 400ms ease-in-out 0;
+    transition: 400ms ease-in-out 0s;
 }
 
 .menu-item ul {
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .menu-item ul li a {
-    margin:  10px 0;
+    margin: 10px 0;
     color: #3e8f92;
     text-decoration: none;
     text-transform: uppercase;
